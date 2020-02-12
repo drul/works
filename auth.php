@@ -1,7 +1,9 @@
 <?php
 include_once 'classes/authBody.php';
 include_once 'connection.php';
+
 $logPass = new authBody($_POST);
+print_r('Hello');
 
 ?>
 <form action="auth.php" method="post">
